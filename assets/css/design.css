@@ -11,15 +11,11 @@
   margin: 0;
 }
 
-html {
-  height: 100%;
-}
-
 body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  min-height: 100vh;
   background-color: var(--light-grey);
   font-family: 'Outfit', Arial, Helvetica, sans-serif;
   font-size: 15px;
